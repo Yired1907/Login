@@ -1,0 +1,106 @@
+/* style for form */
+form {
+  border: 2px solid #6e6b6b;
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+.login2 {
+  margin-left: 18%;
+}
+/* style for input fields */
+input[type="text"],
+input[type="password"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* style for submit button */
+input[type="submit"] {
+  width: 80%;
+  background-color: #495565;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* style for submit button when hover over it */
+input[type="submit"]:hover {
+  background-color: #434951;
+}
+
+/* Font web  name*/
+@font-face {
+  font-family: "fontLogin";
+  src: url("./font/Lato/Lato-Bold.ttf");
+}
+
+.fontNameLogin {
+  font-family: "fontLogin";
+}
+
+/* Font user name, mail*/
+
+@font-face {
+  font-family: "fontUser";
+  src: url("./font/Lato/Lato-Thin.ttf");
+}
+
+.UserLogin {
+  font-family: "fontUser";
+}
+.container-login {
+  position: relative;
+  height: 100vh;
+}
+.form-login{
+  padding-top: 82px;
+}
+.box-btn {
+  display: flex !important;
+  justify-content: space-around;
+}
+.btn-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #878585 !important;
+  background-color: #fff !important;
+  width: 100px;
+  padding: 8px 8px;
+}
+.box-line {
+  margin: 0 auto;
+  max-width: 298px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line {
+  width: 130px;
+  height: 1px;
+  background-color: #878585;
+}
+.header {
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  height: 60px;
+  background-color: rgb(73, 85, 101 ,0.8);
+}
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 68px;
+  background-color: rgb(73, 85, 101 ,0.8);
+  bottom: 0;
+}
