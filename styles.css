@@ -10,7 +10,7 @@ form {
   margin-left: 18%;
 }
 /* style for input fields */
-input[type="text"],
+input[type="email"],
 input[type="password"] {
   width: 80%;
   padding: 12px 20px;
