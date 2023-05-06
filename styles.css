@@ -1,6 +1,6 @@
 /* style for form */
 form {
-  border: 2px solid #6e6b6b;
+  border: 2px solid #495464;
   border-radius: 5px;
   padding: 15px;
   max-width: 500px;
@@ -29,6 +29,15 @@ input[type="password"] {
 
 .fontNameLogin {
   font-family: "fontLogin";
+}
+
+@font-face {
+  font-family: "fontLogin2";
+  src: url("./font/Lato/Lato-Black.ttf");
+}
+
+.font_create {
+  font-family: "fontLogin2";
 }
 
 /* Font user name, mail*/
