@@ -3,7 +3,7 @@ form {
   border: 2px solid #6e6b6b;
   border-radius: 5px;
   padding: 20px;
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 }
 .login2 {
@@ -60,10 +60,11 @@ input[type="submit"]:hover {
 }
 .container-login {
   position: relative;
+  width: 100vw;
   height: 100vh;
 }
-.form-login{
-  padding-top: 82px;
+.form-login {
+  padding: 82px 12px 0 12px;
 }
 .box-btn {
   display: flex !important;
@@ -95,12 +96,12 @@ input[type="submit"]:hover {
   position: absolute;
   width: 100vw;
   height: 60px;
-  background-color: rgb(73, 85, 101 ,0.8);
+  background-color: rgb(73, 85, 101, 0.8);
 }
 .footer {
   position: absolute;
   width: 100vw;
   height: 68px;
-  background-color: rgb(73, 85, 101 ,0.8);
+  background-color: rgb(73, 85, 101, 0.8);
   bottom: 0;
 }
